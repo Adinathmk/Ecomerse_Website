@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../contexts/AuthContext"; // import your AuthContext
 import { toast } from "react-toastify";
+import banner from "../assets/image.avif"
 
 const SignInPage = () => {
   const navigate = useNavigate();
@@ -109,7 +110,7 @@ const SignInPage = () => {
         </div>
 
         <div className="flex-1 hidden md:block">
-          <img src="\src\assets\image.avif" alt="Workout Login" className="w-full h-full object-cover" />
+          <img src={banner} alt="Workout Login" className="w-full h-full object-cover" />
         </div>
       </div>
     </div>

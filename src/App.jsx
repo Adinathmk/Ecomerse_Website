@@ -18,7 +18,7 @@ import ProtectLogin from './layouts/ProtectLogin';
 import ProtectProfile from './layouts/ProtectProfile';
 import ContactPage from './pages/ContactPage';
 import About from './pages/About';
-import ProtectAdmin from './layouts/ProtectAdmin.JSX';
+import ProtectAdmin from './layouts/ProtectAdmin';
 import Dashboard from './Admin/pages/Dashboard';
 import AdminLayout from './Admin/layout/AdminLayout';
 import ManageProducts from './Admin/pages/ManageProducts';

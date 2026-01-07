@@ -227,9 +227,9 @@ export default function Navbar() {
             {/* Categories */}
             <div className="space-y-2">
               <h3 className="px-3 py-2 text-sm font-semibold text-gray-500 uppercase tracking-wider">Categories</h3>
-              <NavLink to="/men" onClick={() => setIsMenuOpen(false)} className={({ isActive }) => `block px-5 py-4 rounded-2xl text-base font-medium transition-all duration-300 shadow-sm border border-gray-100 ${isActive ? activeClass : inactiveClass}`}>Men</NavLink>
-              <NavLink to="/women" onClick={() => setIsMenuOpen(false)} className={({ isActive }) => `block px-5 py-4 rounded-2xl text-base font-medium transition-all duration-300 shadow-sm border border-gray-100 ${isActive ? activeClass : inactiveClass}`}>Women</NavLink>
-              <NavLink to="/accessories" onClick={() => setIsMenuOpen(false)} className={({ isActive }) => `block px-5 py-4 rounded-2xl text-base font-medium transition-all duration-300 shadow-sm border border-gray-100 ${isActive ? activeClass : inactiveClass}`}>Accessories</NavLink>
+              <NavLink to="/products/men" onClick={() => setIsMenuOpen(false)} className={({ isActive }) => `block px-5 py-4 rounded-2xl text-base font-medium transition-all duration-300 shadow-sm border border-gray-100 ${isActive ? activeClass : inactiveClass}`}>Men</NavLink>
+              <NavLink to="/products/women" onClick={() => setIsMenuOpen(false)} className={({ isActive }) => `block px-5 py-4 rounded-2xl text-base font-medium transition-all duration-300 shadow-sm border border-gray-100 ${isActive ? activeClass : inactiveClass}`}>Women</NavLink>
+              <NavLink to="/products/accessories" onClick={() => setIsMenuOpen(false)} className={({ isActive }) => `block px-5 py-4 rounded-2xl text-base font-medium transition-all duration-300 shadow-sm border border-gray-100 ${isActive ? activeClass : inactiveClass}`}>Accessories</NavLink>
             </div>
 
             {/* Profile Options */}
